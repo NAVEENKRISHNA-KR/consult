@@ -8,6 +8,7 @@ function TraitsData(props) {
       </div>
 
       <h4>{props.heading}</h4>
+      <h5>{props.head}</h5>
 
       <p>{props.text}</p>
     </div>

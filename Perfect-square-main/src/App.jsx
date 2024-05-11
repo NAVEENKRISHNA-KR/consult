@@ -7,6 +7,7 @@ import Service from "./routes/Service";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Testimonial from "./routes/Testimonial";
+import Machinery from "./routes/Machinery"
 import {AnimatePresence} from "framer-motion"
 import "./styles.css";
 
@@ -21,6 +22,7 @@ const App = ()=> {
           <Route path="/" element={<Home />} />
           <Route path="/service" element={<Service />} />
           <Route path="/about" element={<About />} />
+          <Route path="/machinery" element={<Machinery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/review" element={<Testimonial />} />
         </Routes>
